@@ -1,0 +1,89 @@
+https://sandbox-api-co.metrc.com/facilities/v1
+
+https://sandbox-api-co.metrc.com/items/v1
+
+Get Active Items
+https://sandbox-api-co.metrc.com/items/v1/active?licenseNumber=403R-X0001
+Get Active Packages
+https://sandbox-api-co.metrc.com/packages/v1/active?licenseNumber=402R-X0001
+Get Active Strains
+https://sandbox-api-co.metrc.com/strains/v1/active?licenseNumber=402-X0001
+Get Active Rooms
+https://sandbox-api-co.metrc.com/rooms/v1/active?licenseNumber=403-X0001
+Get Flowering Plants
+https://sandbox-api-co.metrc.com/plants/v1/flowering?licenseNumber=403-X0001
+Get Items Categories
+https://sandbox-api-co.metrc.com/items/v1/categories
+Get Unit Of Measurement
+https://sandbox-api-co.metrc.com/unitsofmeasure/v1/active
+Get Active Packages
+https://sandbox-api-co.metrc.com/packages/v1/active?licenseNumber=403-X0002
+
+
+
+
+Create Items
+https://sandbox-api-co.metrc.com/items/v1/create?licenseNumber=402-X0001
+
+Create Packages
+https://sandbox-api-co.metrc.com/packages/v1/create?licenseNumber=402-X0001
+Change Package Item
+https://sandbox-api-co.metrc.com/packages/v1/change/item?licenseNumber=402-X0001
+Create Rooms
+https://sandbox-api-co.metrc.com/rooms/v1/create?licenseNumber=403-X0001
+Create Strains
+https://sandbox-api-co.metrc.com/strains/v1/create?licenseNumber=403-X0001
+Create Packages
+https://sandbox-api-co.metrc.com/packages/v1/create?licenseNumber=403R-X0001
+Create Harvest from Plant Batch
+https://sandbox-api-co.metrc.com/harvests/v1/createpackages?licenseNumber=403-X0001
+https://sandbox-api-co.metrc.com/plantbatches/v1/changegrowthphase?licenseNumber=403-X0001
+Move Plants
+https://sandbox-api-co.metrc.com/plants/v1/moveplants?licenseNumber=403-X0001
+Update Items
+https://sandbox-api-co.metrc.com/items/v1/create?licenseNumber=402-X0001
+
+},
+   {
+    "Id": 23,
+    "Label": "ABCDEF012345670000010022",
+    "NewTag": "ABCDEF012345670000020022",
+    "GrowthPhase": "Flowering",
+    "NewRoom": "Pathways OG - Flowering Room",
+    "GrowthDate": "2017-12-21"
+  }, {
+    "Id": 24,
+    "Label": "ABCDEF012345670000010023",
+    "NewTag": "ABCDEF012345670000020001",
+    "GrowthPhase": "Flowering",
+    "NewRoom": "Pathways OG - Flowering Room",
+    "GrowthDate": "2017-12-21"
+  }, {
+    "Id": 25,
+    "Label": "ABCDEF012345670000010024",
+    "NewTag": "ABCDEF012345670000020024",
+    "GrowthPhase": "Flowering",
+    "NewRoom": "Pathways OG - Flowering Room",
+    "GrowthDate": "2017-12-21"
+  }, {
+    "Id": 26,
+    "Label": "ABCDEF012345670000010025",
+    "NewTag": "ABCDEF012345670000020025",
+    "GrowthPhase": "Flowering",
+    "NewRoom": "Pathways OG - Flowering Room",
+    "GrowthDate": "2017-12-21"
+  }
+Update
+[
+ {
+    "Id": 5801,
+    "Name": "Purple Kush Buds Item",
+    "ItemCategory": "Buds",
+    "UnitOfMeasure": "Grams",
+    "Strain": "Purple Kush",
+    "UnitThcContent": null,
+    "UnitThcContentUnitOfMeasure": null,
+    "UnitWeight": null,
+    "UnitWeightUnitOfMeasure": null
+  }
+]
